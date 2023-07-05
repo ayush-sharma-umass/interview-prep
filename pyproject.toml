@@ -1,0 +1,18 @@
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "Interview Preparation"
+version = "0.1.0"
+description = "Notebooks for Interview Prep"
+authors = ["Ayush Sharma <ayush.cs.umass@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.*"
+pandas = "*"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+jupyterlab = "^3.2.0"
+jupyter-server = { version = "1.11.0", python = ">=3.7,<3.8" }
+torch = { version = "^1.9.0", extras = ["torchvision"] }
