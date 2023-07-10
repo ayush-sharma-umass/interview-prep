@@ -12,6 +12,7 @@ authors = ["Ayush Sharma <ayush.cs.umass@gmail.com>"]
 python = "3.8.*"
 pandas = "*"
 matplotlib = "^3.4.3"
+treelib = "1.6.*"
 seaborn = "^0.11.2"
 jupyterlab = "^3.2.0"
 jupyter-server = { version = "1.11.0", python = ">=3.7,<3.8" }
