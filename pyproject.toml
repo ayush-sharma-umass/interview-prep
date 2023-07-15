@@ -17,3 +17,5 @@ seaborn = "^0.11.2"
 jupyterlab = "^3.2.0"
 jupyter-server = { version = "1.11.0", python = ">=3.7,<3.8" }
 torch = { version = "^1.9.0", extras = ["torchvision"] }
+sklearn = "^0.0.post5"
+scikit-learn = "^1.3.0"
