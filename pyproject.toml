@@ -9,13 +9,13 @@ description = "Notebooks for Interview Prep"
 authors = ["Ayush Sharma <ayush.cs.umass@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.8.*"
+python = "3.9.*"
 pandas = "*"
 matplotlib = "^3.4.3"
 treelib = "1.6.*"
 seaborn = "^0.11.2"
 jupyterlab = "^3.2.0"
-jupyter-server = { version = "1.11.0", python = ">=3.7,<3.8" }
+jupyter-server = { version = "1.11.0", python = ">=3.7,<=3.9" }
 torch = { version = "^1.9.0", extras = ["torchvision"] }
 sklearn = "^0.0.post5"
 scikit-learn = "^1.3.0"
